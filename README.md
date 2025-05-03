@@ -41,6 +41,6 @@ playwright install
 
 5. **execute test suite**
 ```bash
-pytest saucedemo_tests
+pytest --headed
 ```
 

@@ -22,6 +22,25 @@ This project contains a functional UI test automation suite for [SauceDemo](http
 ```bash
 git clone https://github.com/yourusername/saucedemo-playwright.git
 cd saucedemo-playwright
+```
 
-exec:  
+2. **create virtual env**
+```bash 
+python -m venv venv
+```
+3. **activate virtual env**
+```bash 
+venv\Scripts\activate      # For Windows
+```
+4. **install dependencies**
+
+```bash
+pip install -r requirements.txt
+playwright install
+```
+
+5. **execute test suite**
+```bash
+pytest saucedemo_tests
+```
 

@@ -23,5 +23,5 @@ This project contains a functional UI test automation suite for [SauceDemo](http
 git clone https://github.com/yourusername/saucedemo-playwright.git
 cd saucedemo-playwright
 
- 
+exec:  
 
